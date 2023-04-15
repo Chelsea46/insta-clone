@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    background-color: #121212;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin-right: 1em;
+    color: white;
+}
+
+.notifications{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.75rem;
+    color: white;
+    margin-left: .75em;
+}
+
+.story{
+    border-bottom: 2px solid grey;
+    background-color: #181818;
+    display: flex;
+    align-content: space-between;
+    align-items: top;
+    justify-content: center;
+}
+
+.name{
+    color: white;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+}
+
+.user-story{
+    text-align: center;
+}
+.user-img{
+    border-radius: 50%;
+    height: 12vh;
+    border: 3px solid #D429C5;
+    margin: .5em .75em 0em .75em;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+main{
+    background-color: #121212;
+    border-bottom: 2px solid grey;
+}
+.post{
+    align-items: stretch;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+    width: 100%;
+}
+.post-img{
+    height: 70vh;
+    margin-top: .5em;
+}
+
+.actions{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0em;
+    padding-inline-start: 1em;
+}
+
+.action-list{
+    margin: 0em 1em 1em 0em;
+}
+
+.liked-by{
+    color: white;
+    font-size: 1rem;
+    margin-left: 1em;
+    font-weight: lighter;
+    margin-bottom: 0em;
+}
+
+.post-details{
+    color: white;
+    margin-left: 1em;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin-top: -.5em;
+}
+
+.user-name{
+    font-weight: bold;
+    margin-right: .5em;
+}
+
+.comment-view{
+    margin-left: 1em;
+    color: #a6b5b1;
+    margin-block-start: -0.5em;
+}
