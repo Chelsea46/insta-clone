@@ -107,6 +107,7 @@ main{
     margin-left: 1em;
     font-weight: lighter;
     margin-bottom: 0em;
+    cursor: pointer;
 }
 
 .post-details, .comments, .replies{
@@ -143,3 +144,59 @@ main{
     margin-top: -1em;
 }
 
+.bg-modal{
+    width: 550px;
+    height: 107vh;
+    background-color: rbga(0, 0, 0, 0.7) !important;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    display: none;
+}
+
+.modal-content{
+    width: 505px;
+    padding: 1em;
+    background-color: #181818;
+    border-radius: 6px;
+    position: relative;
+    display: none;
+    flex-direction: column;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 1.5rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.liked-img{
+    border-radius: 50%;
+    height: 10vh;
+    margin: .5em .75em 0em .75em;
+    border-radius: 50%;
+}
+
+.liked-user{
+    display: flex;
+    align-items: center;
+}
+
+.liked-name{
+    color: white;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+}
+
+.view-comments{
+    margin-left: 1em;
+    color: #a6b5b1;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
