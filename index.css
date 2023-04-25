@@ -41,6 +41,7 @@ nav{
     justify-content: center;
 }
 
+
 .name{
     color: white;
     display: block;
@@ -119,11 +120,16 @@ main{
     margin-top: -.5em;
 }
 
+.hidden{
+    display: none;
+}
+
 .comment{
     display: flex;
     width: 90%;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 .user-name{
     font-weight: bold;
